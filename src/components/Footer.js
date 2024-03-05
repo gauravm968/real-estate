@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react'
-import logo from '../assets/Icons/Logo.svg'
+import React from 'react'
 import facebook from '../assets/Icons/facebook.png'
 import twitter from '../assets/Icons/twitter.png'
 import instagram from '../assets/Icons/instagram.png'
 import { Link } from 'react-router-dom'
+import { BsBuildingsFill } from "react-icons/bs"
 
 export default function Footer() {
   return (
-    <footer className='w-full flex justify-between items-center py-[4rem] px-[5.5rem] bg-[var(--smoothWhite)] max-lg:px-[3rem] max-md:px-[2.5rem] max-xs:px-[.4rem]'>
+    <footer className='w-full flex justify-between items-center py-[4rem] px-[5.5rem] bg-[var(--smoothWhite)] max-lg:px-[3rem] max-md:px-[2.5rem] max-xs:px-[.5rem]'>
         <div className="w-[40%]">
-            <Link to='/'><img src={logo} alt="Logo" className='w-[8rem] max-md:w-[6rem] max-xs:w-[5rem]'></img></Link>
+            <Link to='/'><BsBuildingsFill className='text-[var(--mainBlue)] scale-x-[-1] h-10 w-[2.5rem] max-xs:w-[2rem]'/></Link>
             <div className="">
                 <ul className='flex list-none mt-[20px] gap-[22px]'>
                     <li><Link to="www.facebook.com"><img src={facebook} alt="Facebook" className='w-[2rem] max-md:w-[1.6rem] max-xs:w-[1.4rem]'></img></Link></li>
