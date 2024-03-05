@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --smoothWhite: #f6f8fa;
+    --mainBlue: #4f4de7;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    background: var(--smoothWhite);
+}
+
+.background-img{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(assets/img/mainBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+    background-position: center;
+    height: 120vh;
+}
+
+/* NavLink  */
+.active{
+    color: rgb(0, 0, 0);
+}
+
+
