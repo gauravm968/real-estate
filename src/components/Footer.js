@@ -4,15 +4,10 @@ import facebook from '../assets/Icons/facebook.png'
 import twitter from '../assets/Icons/twitter.png'
 import instagram from '../assets/Icons/instagram.png'
 import { Link } from 'react-router-dom'
-import aos from 'aos'
-import 'aos/dist/aos.css'
 
 export default function Footer() {
-    useEffect(() => {
-        aos.init({duration: 2000})
-      }, []);
   return (
-    <footer data-aos='fade-up' className='w-full flex justify-between items-center py-[4rem] px-[5.5rem] bg-[var(--smoothWhite)] max-lg:px-[3rem] max-md:px-[2.5rem] max-xs:px-[.4rem]'>
+    <footer className='w-full flex justify-between items-center py-[4rem] px-[5.5rem] bg-[var(--smoothWhite)] max-lg:px-[3rem] max-md:px-[2.5rem] max-xs:px-[.4rem]'>
         <div className="w-[40%]">
             <Link to='/'><img src={logo} alt="Logo" className='w-[8rem] max-md:w-[6rem] max-xs:w-[5rem]'></img></Link>
             <div className="">
