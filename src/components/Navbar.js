@@ -13,8 +13,9 @@ export default function Navbar() {
                 <li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/'>Home</NavLink></li>
                 <li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/location'>Location</NavLink></li>
                 <li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/blogs'>Blogs</NavLink></li>
-                <li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/testimonial'>Testimonial</NavLink></li>
-                <li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/contact'>Contact</NavLink></li>
+		<li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/contact'>Contact</NavLink></li>
+                <li className='hover:scale-125 transition duration-500 cursor-pointer'><NavLink to='/login'>Login</NavLink></li>
+                
             </ul>
         </div>
     </div>
